@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.zyj.spring.cloud</groupId>
+		<artifactId>spring-cloud-netflix</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<groupId>com.zyj.spring.cloud.netflix</groupId>
+	<artifactId>spring-cloud-netflix-eureka</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>spring-cloud-netflix-eureka</name>
+	<description>spring-cloud-netflix-eureka project</description>
+	<modules>
+		<module>eureka-client</module>
+		<module>spring-cloud-netflix-eureka-client</module>
+		<module>spring-cloud-netflix-eureka-server</module>
+	</modules>
+</project>
